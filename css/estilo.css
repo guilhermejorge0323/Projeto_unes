@@ -1,0 +1,53 @@
+				/*Gerais*/
+
+li{
+	list-style: none;
+}
+
+body{
+	background: #f2f2f2;
+}
+
+
+
+
+/*---------------------------------------------------------------*/
+						/*topo*/
+
+
+
+#barra-horizontal{
+	float: left;
+	
+}
+
+#logo{
+	float: left;
+	margin: 0 600px 0 50px;
+	
+}
+
+#barra-horizontal  li{
+	float: left;
+	margin: 15px 0 0 15px;
+	padding: 5px;
+
+}
+
+#barra-horizontal li a:hover{
+	background: #383f5d;
+	color: #fff;
+}
+
+#barra-horizontal li a{
+	text-decoration: none;
+	font-size: 25px;
+	color: #383f5d ;
+	padding:  10px;
+	background: #fff;
+	border-radius: 50px;
+	
+
+
+
+}
