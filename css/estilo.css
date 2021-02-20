@@ -14,22 +14,28 @@ body{
 /*---------------------------------------------------------------*/
 						/*topo*/
 
+#topo{
+	border-top: 5px solid #383f5d;
+}
+
+/*-------------------------------------*/
+		/*barra-horizontal*/
 
 
 #barra-horizontal{
 	float: left;
-	
+		
 }
 
 #logo{
 	float: left;
-	margin: 0 600px 0 50px;
+	margin: 0 620px 0 20px;
 	
 }
 
 #barra-horizontal  li{
 	float: left;
-	margin: 15px 0 0 15px;
+	margin: 15px 0 0 25px;
 	padding: 5px;
 
 }
@@ -45,9 +51,131 @@ body{
 	color: #383f5d ;
 	padding:  10px;
 	background: #fff;
-	border-radius: 50px;
+	border-radius: 10px;
+}
+
+
+
+/*-------------------------------------*/
+
+/*----------------------------------------------------------------*/
+						/*area-Conteudo lateral*/
+
+#area-conteudo-lateral{
+	float: left;
 	
+	
+}
 
+/*-------------------------------------*/
+			/*conteudo lateral*/
 
+#conteudo-lateral-1 {
+	margin: 60px 0 0 45px;
+	width: 250px;
+	height: 435px;
+	background: #fff;
+	border-bottom: 2px solid #383f5d;
+	border-left: 2px solid #383f5d;
+	border-right: 2px solid #383f5d;
+}
+
+#conteudo-lateral-1 h1{
+	font-size: 19px;
+	color: #fff;
+	background: #383f5d;
+	padding: 6px;
+}
+
+#conteudo-lateral-1 h2{
+	color: #383f5d;
+	margin: 5px 0px 10px 40px;
+}
+
+#conteudo-lateral-1 img{
+	width: 220px;
+	height: 220px;
+	margin: 5px 0 0 15px;
+}
+
+#caixa-nome{
+	margin: 5px 0 0 11px;
+	border-radius: 5px;
+	border: 2px solid #383f5d;
+	width: 215px;
+	background: #f2f2f2;
+}
+
+#caixa-email{
+	margin: 7px 0 0 11px;
+	border-radius: 5px;
+	border: 2px solid #383f5d;
+	width: 215px;
+	background: #f2f2f2;
+	font-family: optima;
 
 }
+
+::-webkit-input-placeholder {
+   color: #383f5d;
+   padding:  0 0 0 5px;
+}
+
+#texto-formulario{
+	font-size: 13px;
+	font-family: Andale Mono, monospace;
+	margin: 10px 0 0 10px;
+}
+
+#botao-enviar{
+	margin: 10px 0 0 23px;
+	width: 200px;
+	height: 25px;
+	background: #383f5d;
+	color: #fff;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------*/
+						/*area-Conteudo-principal*/
+
+#area-conteudo-principal{	
+	clear: both;
+	clear: right;
+	
+	
+}
+
+/*-----------------------------------*/
+		/*Conteudo-principal*/
+
+#conteudo-principal{
+	margin: 150px 0px 0 397px ;
+	width: 900px;
+}
+
+/*------------------------------------*/
+
+/*------------------------------------------------------------------*/
+
+
+
+/*---------------------------------------------------------------*/
+						/*Rodape*/
+
+#rodape{
+	clear: both;
+	background-color: #383f5d;
+	margin: 1000px 0 0 0;
+}
+
+
